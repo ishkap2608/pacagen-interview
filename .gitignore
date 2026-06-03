@@ -1,0 +1,41 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Build / dist
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Claude session files (large)
+.claude/
+
+# Large result images (keep CSV and heatmap, skip per-image annotated JPEGs)
+results/annotated/
+results/well_debug/
+results/test_annotated.jpg
+
+# Source images are large (~451 MB) - store separately and place in assignment_1/images/
+assignment_1/images/
