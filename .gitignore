@@ -32,8 +32,7 @@ Thumbs.db
 # Claude session files (large)
 .claude/
 
-# Large result images (keep CSV and heatmap, skip per-image annotated JPEGs)
-results/annotated/
+# Large result images
 results/well_debug/
 results/test_annotated.jpg
 
