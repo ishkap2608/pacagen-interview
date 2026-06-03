@@ -37,5 +37,4 @@ results/annotated/
 results/well_debug/
 results/test_annotated.jpg
 
-# Source images are large (~451 MB) - store separately and place in assignment_1/images/
-assignment_1/images/
+# Source images are tracked in the repo (293 files, ~451 MB)
